@@ -1,0 +1,31 @@
+{
+  "name": "json2java",
+  "version": "0.0.1",
+  "description": "A tool that helps you transform json to java class(es)",
+  "main": "bin/json2java",
+  "author": "greatbody",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ejs": "^2.7.4"
+  },
+  "bin": {
+    "json2java": "./bin/json2java.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.11",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.2.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.2",
+    "prettier-eslint": "^9.0.1"
+  }
+}
